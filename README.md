@@ -74,19 +74,19 @@
 ### 📗 Documentación del proyecto
 ---
 
-* Página de la Wiki: https://github.com/iesgrancapitan-CEIABD-BDA/proyecto-final-bda-2024-25-Dansarasix-DML/wiki
+* Página de la Wiki: https://github.com/Dansarasix-DML/Proyecto-final-Big-Data/wiki
 * Documento PDF dentro del repo.
 * Enlace Google Drive al PDF: https://docs.google.com/document/d/1PTMQJikNZtGECRgAtVwm7L9h7iRqjb_QNpt2o-4T8LE/edit?usp=sharing
 
 ### 📁 Archivos del proyecto
 ---
 
-* https://github.com/iesgrancapitan-CEIABD-BDA/proyecto-final-bda-2024-25-Dansarasix-DML/tree/main/files
+* https://github.com/Dansarasix-DML/Proyecto-final-Big-Data/tree/main/files
 
 ### 🗂️ Data generada del proyecto de ejemplo
 ---
 
-* https://github.com/iesgrancapitan-CEIABD-BDA/proyecto-final-bda-2024-25-Dansarasix-DML/tree/main/data
+* https://github.com/Dansarasix-DML/Proyecto-final-Big-Data/tree/main/data
 
 ### 🎬 Vídeos de demostración
 ---
