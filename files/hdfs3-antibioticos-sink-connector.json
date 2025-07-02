@@ -1,0 +1,16 @@
+{
+  "name": "hdfs3-antibioticos-sink-connector",
+  "config": {
+    "connector.class": "io.confluent.connect.hdfs3.Hdfs3SinkConnector",
+    "tasks.max": "3",
+    "confluent.topic.bootstrap.servers": "192.168.18.8:9094",
+    "topics": "micro-antibiotic_res",
+    "store.url": "hdfs://cluster-bda:9000/bda/proyecto/batch/antibioticos",
+    "logs.dir": "logs/hdfs3sink",
+    "format.class": "io.confluent.connect.hdfs3.json.JsonFormat",
+    "path.format": "'year'=YYYY/'month'=MM/'day'=dd",
+    "flush.size": "3",
+    "hadoop.conf.dir": "/opt/hadoop-3.4.1/etc/hadoop/",
+    "hadoop.home": "/opt/hadoop-3.4.1/"
+  }
+}

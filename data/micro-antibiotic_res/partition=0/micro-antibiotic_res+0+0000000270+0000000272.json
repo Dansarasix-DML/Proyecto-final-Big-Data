@@ -1,0 +1,3 @@
+{"res_id":401,"analitica_id":101,"antibiotic_name":"colistina","resistance_level":"sensible"}
+{"res_id":402,"analitica_id":101,"antibiotic_name":"imipenem","resistance_level":"resistente"}
+{"res_id":403,"analitica_id":101,"antibiotic_name":"ceftriaxona","resistance_level":"sensible"}

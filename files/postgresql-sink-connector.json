@@ -1,0 +1,33 @@
+{
+  "name": "postgres-alertas-sink",
+  "config": {
+    "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+    "tasks.max": "1",
+    
+    "topics": "alertas_pacientes",
+    "connection.url": "jdbc:postgresql://localhost:5432/health_data",
+    "connection.user": "sparkuser",
+    "connection.password": "sparkpass",
+
+    "table.name.format": "vitales_pacientes",
+    "insert.mode": "insert",
+    "pk.mode": "record_value",
+    "pk.fields":"patient_id",
+
+    "auto.create": "true",
+    "auto.evolve": "true",
+
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "true",
+    
+    "transforms": "convertTS",
+    "transforms.convertTS.type": "org.apache.kafka.connect.transforms.TimestampConverter$Value",
+    "transforms.convertTS.field": "timestamp",
+    "transforms.convertTS.target.type": "Timestamp"
+
+
+  }
+}
+
+
+

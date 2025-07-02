@@ -1,0 +1,15 @@
+{
+  "name": "mysql-antibioticos-source",
+  "config": {
+    "connector.class": "io.confluent.connect.jdbc.JdbcSourceConnector",
+    "tasks.max": "1",
+    "connection.url": "jdbc:mysql://localhost:3306/MedicineDB",
+    "connection.user": "root",
+    "connection.password": "1234",
+    "table.whitelist": "antibiotic_res",
+    "mode": "incrementing",
+    "incrementing.column.name": "res_id",
+    "topic.prefix": "micro-",
+    "poll.interval.ms": "5000"
+  }
+}
