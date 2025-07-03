@@ -76,7 +76,7 @@
 
 * Página de la Wiki: https://github.com/Dansarasix-DML/Proyecto-final-Big-Data/wiki
 * Documento PDF dentro del repo.
-* Enlace Google Drive al PDF: https://docs.google.com/document/d/1PTMQJikNZtGECRgAtVwm7L9h7iRqjb_QNpt2o-4T8LE/edit?usp=sharing
+* Enlace Google Drive al PDF: https://drive.google.com/file/d/1Oqw7oQqSZtYIT-2X590tC1vHeLdiPgj6/view?usp=sharing
 
 ### 📁 Archivos del proyecto
 ---
@@ -91,5 +91,5 @@
 ### 🎬 Vídeos de demostración
 ---
 
-* Primera parte: https://drive.google.com/file/d/1VAuXCKg-pSQuT2PcBIEHE_x1a6P3lQCN/view?usp=sharing
-* Segunda parte: https://drive.google.com/file/d/160lGnDW1cFPY11tNXCuGfF7aGTFUHeoe/view?usp=sharing
+* Primera parte: https://drive.google.com/file/d/1G6q3x81DQLqX9v9OydtwLBqJsEX1giSc/view?usp=sharing
+* Segunda parte: https://drive.google.com/file/d/1zBYOHlzJ-H1rvnHXi2IlHXsfXFGWMBRV/view?usp=sharing
